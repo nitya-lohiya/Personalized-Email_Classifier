@@ -35,7 +35,7 @@ class BatchPredictionResponse(BaseModel):
 # ── Globals ──────────────────────────────────────────────
 
 LABEL_MAP = {0: "High", 1: "Medium", 2: "Low"}
-MODEL_PATH = "bert_email_classifier"
+MODEL_PATH = "nityalohiya/BERT_Email_Classifier"
 
 model = None
 tokenizer = None
